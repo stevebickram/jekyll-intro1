@@ -6,12 +6,12 @@ layout: default
     <h2>About</h2>
 
   {% for dino in site.data.dino %}
-<h3></h3>
+<h3>{{dino.name}}</h3>
 <dl>
   <dt>Diet</dt>
   <dd> </dd>
   <dt>Size</dt>
   <dd></dd>
 </dl>
-
+  {% endfor %}
   </main>
